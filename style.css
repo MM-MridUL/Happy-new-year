@@ -1,0 +1,144 @@
+/* Commmon shared styles */
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+
+  }
+
+  .btn-primary{
+    background-color: #F15B22;
+    border-radius: 5px;
+    border:none;
+    padding: 20px 50px;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+   
+  }
+
+  main{
+    width: 90%;
+    margin: 0 auto;
+   
+  }
+  img{
+    max-width: 100%;
+    display: block;
+  }
+
+  /* Header styles */
+  .header{
+
+    background: url('images/banner/banner1.png');
+    background-repeat: no-repeat;
+    
+
+  }
+
+  .about-header{
+   
+    width: 525px;
+    text-align: right;
+    margin-left: 750px;
+   padding: 120px 30px;
+   
+
+  }
+
+  .header-title{
+    color: #151414;
+    font-size: 65px;
+    font-weight: 700;
+   
+  }
+
+  .header-description{
+    color: #444343;
+    font-size: 16px;
+  }
+
+  /* About section styles */
+
+  .about{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    margin-top: 100px;
+    background-color: gray;
+
+  }
+
+  .about-image{
+    width: 50%;
+    background-color: aqua;
+  }
+
+  .about-content{
+    width: 30%;
+    background-color: aqua;
+    padding: 10px;
+  }
+
+  .about-title{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    
+  }
+  .about-description{
+    color: #444343;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+
+
+
+  .about-content ul li{
+    list-style: square;
+    margin-bottom: 15px;
+  }
+
+  /* start my plans section styles */
+
+  .plans{
+    background-color: gray;
+    margin-top: 100px;
+  }
+  .plans-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 10px 10px;
+  }
+  .courses-container{
+    display: flex;
+    justify-content: space-around;
+  }
+  .course-info{
+    width: 24%;
+    background-color: aqua;
+    text-align: center;
+  }
+  .course-info h2{
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  .course-info p{
+    color: #737272;
+    font-size: 25px;
+    margin-top: 10px;
+  }
+
+  .course-info img{
+    background-color: #F15B22;
+    margin: 0 auto;
+    margin-bottom: 5px;
+  }
