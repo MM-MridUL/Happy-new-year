@@ -191,5 +191,50 @@ body {
   /* footer styles */
 
   footer{
-    background-color: gray;
+    background-color: #151414;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-colum{
+    width: 32%;
+    padding: 50px 50px;
+   
+  }
+
+  .footer-title{
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: bold;
+  }
+  .footer-description{
+    color: #FFFFFF;
+  }
+  .email{
+    color: #FFFFFF;
+
+  }
+  .phone{
+    color: #FFFFFF;
+  }
+
+  .social-links{
+    display: flex;
+    gap: 20px;
+  }
+
+  .footer-h2{
+
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 500;
+
+  }
+
+  input{
+    display: block;
+    margin-bottom: 10px;
+    padding: 12px 50px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: transparent;
   }
