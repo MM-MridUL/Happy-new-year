@@ -237,6 +237,7 @@ body {
     border-radius: 5px;
     border: 1px solid white;
     background-color: transparent;
+    text-align: left;
   }
 
   .button{
