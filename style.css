@@ -68,18 +68,18 @@ body {
     gap: 50px;
     align-items: center;
     margin-top: 100px;
-    background-color: gray;
+   
 
   }
 
   .about-image{
     width: 50%;
-    background-color: aqua;
+   
   }
 
   .about-content{
     width: 30%;
-    background-color: aqua;
+   
     padding: 10px;
   }
 
@@ -107,8 +107,8 @@ body {
   /* start my plans section styles */
 
   .plans{
-    background-color: gray;
     margin-top: 100px;
+    margin-bottom: 100px;
   }
   .plans-title{
     text-align: center;
@@ -122,7 +122,7 @@ body {
   }
   .course-info{
     width: 24%;
-    background-color: aqua;
+   
     text-align: center;
   }
   .course-info h2{
@@ -138,7 +138,58 @@ body {
   }
 
   .course-info img{
-    background-color: #F15B22;
+    
     margin: 0 auto;
     margin-bottom: 5px;
+    margin-top: 10px;
+  }
+  /* Contact styles */
+
+  .contact{
+    background: url('images/watch.png');
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+  }
+
+  .contact-gradient{
+
+    background-image: url('images/gradient2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+  .contact-information{
+   
+    width: 50%;
+    padding-left: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+   
+   
+  }
+
+  .btn{
+    background-color: #fff;
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 0;
+   
+  }
+
+  .contact-title{
+   
+    font-size: 40px;
+    color: #FFFFFF;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+
+  /* footer styles */
+
+  footer{
+    background-color: gray;
   }
