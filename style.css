@@ -238,3 +238,10 @@ body {
     border: 1px solid white;
     background-color: transparent;
   }
+
+  .button{
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #F15B22;
+    margin-top: 10px;
+  }
