@@ -100,7 +100,7 @@ body {
 
 
   .about-content ul li{
-    list-style: square;
+    list-style: none;
     margin-bottom: 15px;
   }
 
@@ -245,4 +245,13 @@ body {
     background-color: #fff;
     color: #F15B22;
     margin-top: 10px;
+  }
+  .checkmark{
+    display: inline-block;
+    transform: rotate(45deg);
+    height: 12px;
+    width: 7px;
+    border-bottom: 4px solid #16D887;
+    border-right: 4px solid #16D887;
+    margin-right: 5px;
   }
